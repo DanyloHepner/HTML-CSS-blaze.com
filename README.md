@@ -1,2 +1,2 @@
-#Imitated UI of braze.com with only Pure HTML & CSS
+# Imitated UI of braze.com with only Pure HTML & CSS
 This is not completed yet...
