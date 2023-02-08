@@ -1,5 +1,30 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.font-size-1 {
+    font-size: 18px;
+}
+
+.font-size-2 {
+    font-size: 14px;
+}
+
+.font-bold {
+    font-weight: bold;
 }
 
 body {
