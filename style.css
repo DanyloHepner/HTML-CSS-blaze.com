@@ -52,6 +52,10 @@
     padding: 12px;
 }
 
+.full-width {
+    width: 100%;
+}
+
 body {
     background-color: #1b1d2b;
 }
@@ -60,6 +64,57 @@ button {
     cursor: pointer;
     transition: 1s all;
     border-radius: 5px;    
+}
+
+.root {
+
+}
+
+.root .header>.left {
+    width: 13%;
+    float: left;
+}
+
+.root .header>.right {
+    width: 87%;
+    float: right;
+    display: flex;
+}
+
+.root .header>.right>.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 16px;
+}
+
+.root .header>.right>.content>.content-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.root .header>.right>.content>.content-first>* {
+    margin-left: 30px;
+    padding: 5px 5px;
+}
+
+.root .header>.right>.content>.content-first>.leftbar-clicker {
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.root .header>.right>.content>.content-first>.leftbar-clicker:hover {
+    background-color: rgba(255,255,255,.8);
+}
+
+.root .header>.right>.content>.log-reg-btn-grp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .log-reg-btn-grp button.sign-up:hover {
