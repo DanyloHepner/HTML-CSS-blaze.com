@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "SofiaPro", sans-serif;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@
 }
 
 .bg-red {
-    background-color: red;
+    background-color: #f12c4c;
 }
 
 .non-border {
@@ -49,11 +49,15 @@
 }
 
 .space-enough {
-    padding: 12px;
+    padding: 14px 25px;
 }
 
 .full-width {
     width: 100%;
+}
+
+.full-height {
+    height: 100%;
 }
 
 body {
@@ -70,9 +74,25 @@ button {
 
 }
 
+.root .header {
+    height: 72px;
+}
+
 .root .header>.left {
     width: 13%;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.root .header>.left>.left-pane-tab>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .root .header>.right {
@@ -85,7 +105,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px 16px;
 }
 
@@ -104,10 +124,16 @@ button {
 .root .header>.right>.content>.content-first>.leftbar-clicker {
     cursor: pointer;
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .root .header>.right>.content>.content-first>.leftbar-clicker:hover {
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(255,255,255,.2);
 }
 
 .root .header>.right>.content>.log-reg-btn-grp {
@@ -117,6 +143,8 @@ button {
     justify-content: flex-end;
 }
 
+
 .log-reg-btn-grp button.sign-up:hover {
-    background-color: darkred;
+    background-color: #cc2843;
 }
+
