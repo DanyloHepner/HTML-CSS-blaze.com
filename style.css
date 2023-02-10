@@ -148,3 +148,22 @@ button {
     background-color: #cc2843;
 }
 
+.left-bar {
+    width: 15%;
+}
+
+.left-bar>.menu-collapse>.btn-earn-free-container>.btn-earn-free {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #f12c4c;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.left-bar>.menu-collapse>.btn-earn-free-container>.btn-earn-free:hover {
+    background-color: #cc2843;
+}
