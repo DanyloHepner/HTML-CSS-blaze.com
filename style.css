@@ -153,7 +153,10 @@ button {
 }
 
 .left-bar {
-    width: 15%;
+    width: 12%;
+    float: left;
+    font-size: 12px !important;
+    font-weight: bold;
 }
 
 .left-bar>.menu-collapse>.btn-earn-free-container {
@@ -181,6 +184,29 @@ button {
 
 .left-bar>.menu-collapse {
     width: auto;
-    border: 0.5px solid gainsboro;
+    border: 0.5px solid gray;
     border-bottom: none;
+    padding: 15px;
+}
+
+.left-bar>.menu-collapse>p {
+    display: block;
+    line-height: 2.5;
+}
+
+.left-bar>.menu-collapse>.menu-list-container>p {
+    line-height: 1.5;
+}
+
+.page-container {
+    float: right;
+    text-align: center;
+    width: 85%;
+}
+
+.page-container>.gallery-container {
+    width: 88%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
