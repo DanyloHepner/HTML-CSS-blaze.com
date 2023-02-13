@@ -15,6 +15,10 @@
     text-transform: capitalize;
 }
 
+.font-light-gray {
+    color: #bcbfc7 !important;
+}
+
 .font-size-11px {
     font-size: 11px;
 }
@@ -152,9 +156,15 @@ button {
     width: 15%;
 }
 
+.left-bar>.menu-collapse>.btn-earn-free-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .left-bar>.menu-collapse>.btn-earn-free-container>.btn-earn-free {
     width: 80%;
-    margin: auto;
     height: auto;
     padding: 10px;
     background-color: #f12c4c;
@@ -167,4 +177,10 @@ button {
 
 .left-bar>.menu-collapse>.btn-earn-free-container>.btn-earn-free:hover {
     background-color: #cc2843;
+}
+
+.left-bar>.menu-collapse {
+    width: auto;
+    border: 0.5px solid gainsboro;
+    border-bottom: none;
 }
