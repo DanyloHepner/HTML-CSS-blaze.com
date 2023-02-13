@@ -162,6 +162,7 @@ button {
     text-transform: capitalize;
     cursor: pointer;
     transition: 0.5s;
+    border: none;
 }
 
 .left-bar>.menu-collapse>.btn-earn-free-container>.btn-earn-free:hover {
