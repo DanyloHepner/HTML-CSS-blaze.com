@@ -157,6 +157,16 @@ button {
     float: left;
     font-size: 12px !important;
     font-weight: bold;
+    margin-top: 50px;
+    border-top: none !important;
+}
+
+.left-bar>.menu-collapse:first-child {
+    border-top: none !important;
+}
+
+.left-bar>.menu-collapse:last-child {
+    border-bottom: 1px solid gray;
 }
 
 .left-bar>.menu-collapse>.btn-earn-free-container {
@@ -164,6 +174,7 @@ button {
     justify-content: center;
     align-items: center;
     justify-content: center;
+    border-top: none !important;
 }
 
 .left-bar>.menu-collapse>.btn-earn-free-container>.btn-earn-free {
