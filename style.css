@@ -153,7 +153,7 @@ button {
 }
 
 .left-bar {
-    width: 12%;
+    width: 16%;
     float: left;
     font-size: 12px !important;
     font-weight: bold;
@@ -180,7 +180,7 @@ button {
 .left-bar>.menu-collapse>.btn-earn-free-container>.btn-earn-free {
     width: 80%;
     height: auto;
-    padding: 10px;
+    padding: 15px;
     background-color: #f12c4c;
     color: white;
     text-transform: capitalize;
@@ -197,22 +197,36 @@ button {
     width: auto;
     border: 0.5px solid gray;
     border-bottom: none;
-    padding: 15px;
+    padding: 25px;
 }
 
 .left-bar>.menu-collapse>p {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     line-height: 2.5;
 }
 
 .left-bar>.menu-collapse>.menu-list-container>p {
-    line-height: 1.5;
+    line-height: 2.5;
+    color: gray !important;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.left-bar>.menu-collapse>.menu-list-container>p:hover {
+    color: white;
 }
 
 .page-container {
     float: right;
     text-align: center;
-    width: 85%;
+    width: 84%;
 }
 
 .page-container>.gallery-container {
