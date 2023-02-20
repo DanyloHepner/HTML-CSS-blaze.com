@@ -80,6 +80,10 @@ button {
 
 .root .header {
     height: 72px;
+    border-bottom: 1px solid gray;
+    z-index: 99999;
+    position: fixed;
+    background-color: #1b1d2b;
 }
 
 .root .header>.left {
@@ -150,6 +154,10 @@ button {
 
 .log-reg-btn-grp button.sign-up:hover {
     background-color: #cc2843;
+}
+
+.left-bar, .page-container {
+    margin-top: 100px !important;
 }
 
 .left-bar {
@@ -234,4 +242,30 @@ button {
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.page-container>.search-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: 1px solid #323b45;
+    padding: 20px;
+    margin: auto;
+    width: 88%;
+    cursor: pointer;
+}
+
+.page-container>.search-box-container>input {
+    border: none;
+    background-color: transparent;
+    color: lightgrey !important;
+    width: 90%;
+    outline: none;
+}
+
+.page-container>.search-box-container>input::placeholder {
+    color: #323b45;
 }
